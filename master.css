@@ -1,0 +1,97 @@
+/* setto il font della pagina  */
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* carico lo sfondo della pagina */
+body{
+  background-image: url("img/background.jpg");
+  background-size:cover;
+}
+
+/* setto le caratteristiche del payoff */
+header > h1 {
+  color: rgb(0, 221, 0);
+  text-align: center;
+  margin-top: 2px;
+}
+
+/* setto le caratteristiche del menu principale e dei pulsanti */
+nav > div {
+  background-color: rgb(0, 221, 0);
+  width: 85%;
+  height: 35px;
+  margin: auto;
+  text-align: center;
+}
+
+div, input {
+  padding-top: 6px;
+}
+
+/* creo il blocco trasparente */
+.bloccotrasparente{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  height: 600px;
+  margin: auto;
+  margin-top: 1%;
+  border-radius: 10px;
+}
+
+/* setto le caratteristiche del logo */
+.logo{
+  display: block;
+  width: 25%;
+  margin:auto;
+  padding-top: 10%;
+}
+
+/* allineo il testo con il menu principale */
+.prodotto {
+  padding-left: 7.4%;
+  padding-top: 2%;
+  color: white;
+}
+
+/* creo il quadrato prima del testo */
+.quadrato{
+  display: inline-block;
+  box-sizing: border-box;
+  height: 10px;
+  width: 10px;
+  background-image: url("img/quadrato.jpg");
+  border-radius: 2px;
+}
+
+/* formatto il testo minore */
+.testopiccolo{
+  font-size: 14px;
+}
+
+/* formatto gli indicatori di carica */
+.carica1{
+  background-color: rgb(245, 180, 83);
+  height: 15px;
+  width: 31%;
+  border-radius: 3px;
+}
+
+.carica2{
+  background-color: rgb(30, 195, 30);
+  height: 15px;
+  width: 70%;
+  border-radius: 3px;
+}
+
+.carica3{
+  background-color: rgb(190, 65, 65);
+  height: 15px;
+  width: 10%;
+  border-radius: 3px;
+}
+
+
+footer{
+  text-align: center;
+}
